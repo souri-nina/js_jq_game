@@ -5,17 +5,65 @@
 
 .header {
   display: flex;
+  justify-content: center;
+  height: 25%;
+}
+
+.game-logo {
+  display: flex;
+  width: auto;
+  height: 65px;
+  align-content: center;
+  padding-top: 75px;
 }
 
 img {
-  height: auto;
-  width: 100px;
+  height: 165px;
+  width: 165px;
+}
+
+.blanks-container {
+  height: 120px;
+  display: none;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  margin: 0 10px;
+  padding-top: 5px;
+}
+
+.blanks {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .letters-container {
   display: flex;
+  width: 100%;
+  height: 140px;
+  margin: 10px;
+  align-items: flex-end;
 }
 
 .letters {
-  justify-content: space-between;
+  display: flex;
+  width: 100%;
+ justify-content: center;
+}
+
+.input-wrapper {
+  height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  justify-content: center;
+  align-content: center;
+  height: 75px;
+  width: 75px;
+  text-indent: 25px;
+  font-size: 34pt;
 }
