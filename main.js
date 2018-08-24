@@ -5,17 +5,23 @@
 // player correct guess = game finished
 
 var words = [ 'eclair', 'frapps', 'banana', 'shakes'];
+
 var user,
     hangman,
     letter
 
+var user_input 
+   
 var playword = words[Math.floor(Math.random() * words.length)];
 
+
 var answerArray = [];
-    for (var i = 0; i < answer.length; i++) {
-      answerArray[i] = "_";
-    }
-    var remLetters = answer.length;
+
+for (var i = 0; i < playword.length; i++) {
+  answerArray[i] = "_";
+}
+    
+var remLetters = answer.length;
 
     while (remainingLetters > 0) {
       alert(answerArray.join(" "));
